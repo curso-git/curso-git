@@ -1,10 +1,11 @@
 class Pessoa
-  attr_accessor :nome, :sobrenome, :idade
+  attr_accessor :nome, :sobrenome, :idade, :sexo
   
-  def intialize(nome, sobrenome, idade)
+  def intialize(nome, sobrenome, idade, sexo)
     @nome = nome
     @sobrenome = sobrenome
     @idade = idade
+    @sexo = sexo
   end
   
   def diga_ola
