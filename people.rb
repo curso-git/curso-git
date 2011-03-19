@@ -1,4 +1,4 @@
-class People
+class Person
   attr_accessor :name, :last, :age, :sex
   
   def intialize(name, last, age, sex)
