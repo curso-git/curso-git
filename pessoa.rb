@@ -12,7 +12,7 @@ class Pessoa
     if idade < 2
       puts "cuti, cuti"
     else
-      puts "Olá #{full_name}!"
+      puts "Olá #{full_name} você é #{@sexo}!"
     end
   end
   
