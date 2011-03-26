@@ -1,11 +1,11 @@
 class Pessoa
-  attr_accessor :nome_completo, :idade, :sexo
+  attr_accessor :nome_completo, :idade, :sexo, :nacionalidade
   
-  def intialize(nome_completo, idade, sexo)
-    @nome_completo, @idade, @sexo = nome, sobrenome, idade, sexo
+  def intialize(nome_completo, idade, sexo, nacionalidade)
+    @nome_completo, @idade, @sexo, @nacionalidade = nome, sobrenome, idade, sexo, nacionalidade
   end
   
-  def diga_ola
+  def saudacao
     if (idade < 2) 
       "cuti, cuti"
     else
