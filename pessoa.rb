@@ -9,7 +9,7 @@ class Pessoa
     if (idade < 2) 
       "cuti, cuti"
     else
-      "Olá #{nome_completo} você é #{sexo}!"
+      "Olá #{nome_completo} você é #{nacionalidade}!"
     end
   end
 end
