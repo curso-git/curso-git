@@ -7,7 +7,7 @@ class Person
   
   def diga_ola
     if (age < 2) 
-      "cuti, cuti"
+      "cuti, cuti _o/"
     else
       "Olá #{full_name} você é #{sex}!"
     end
